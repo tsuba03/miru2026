@@ -277,20 +277,6 @@ $Q=23$は，サンプリングする近赤外波長数$N-K$と一致させたも
 \multicolumn{1}{|l|}{カーネルレス2} & 85.5 & 100 & 100 & 88.7 & 51.6 & 47.9 & \multicolumn{1}{c|}{74.0} \\ \hline
 \end{tabular}
 }
-\bigskip
-\caption{処理時間(ms)}
-\centering
-\scalebox{0.8}[0.8]{
-\label{tab:speed}
-  \begin{tabular}{|l|c|c|c|c||c|} \hline
-     & Backbone+FPN & Kernel Branch & Feature Branch  & Dynamic segmentation & 合計\\ \hline \hline
-    ベースライン & 6.258 & 6.550 & 2.800 & 1.814 & 17.423 \\ \hline
-    軽量化1 & 3.002 & 1.937 & 1.413 & 1.608 & 7.962  \\\hline
-    軽量化2 & 1.474 & 1.980 & 0.492 & 1.756 & 5.703 \\\hline
-    カーネルレス1 & 2.946 & / & 1.416 & 1.741 & 6.104 \\\hline
-    カーネルレス2 & 1.545 & / & 0.466 & 1.704 & \textbf{3.716}  \\\hline
-  \end{tabular}
-}
 \end{table*}
 \begin{figure*}[h]
  \centering
